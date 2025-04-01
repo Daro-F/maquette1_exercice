@@ -8,25 +8,25 @@
 
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/fonts/inter/Inter_18pt-Regular.ttf');
+    src: url('./assets/fonts/inter/Inter_18pt-Regular.ttf');
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/fonts/inter/Inter_18pt-Bold.ttf');
+    src: url('./assets/fonts/inter/Inter_18pt-Bold.ttf');
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/fonts/inter/Inter_18pt-Light.ttf');
+    src: url('./assets/fonts/inter/Inter_18pt-Light.ttf');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Inter';
-    src: url('/assets/fonts/inter/Inter_18pt-Medium.ttf');
+    src: url('./assets/fonts/inter/Inter_18pt-Medium.ttf');
     font-weight: 500;
 }
 
@@ -116,7 +116,7 @@ header {
 
 
 .banner {
-    background-image: url('/assets/images/home-pages/banner-img.png');
+    background-image: url('./assets/images/home-pages/banner-img.png');
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
