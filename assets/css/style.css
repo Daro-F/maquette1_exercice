@@ -1,0 +1,234 @@
+/******** GENERAL ********/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/inter/Inter_18pt-Regular.ttf');
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/inter/Inter_18pt-Bold.ttf');
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/inter/Inter_18pt-Light.ttf');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/inter/Inter_18pt-Medium.ttf');
+    font-weight: 500;
+}
+
+body {
+    background-color: black;
+    font-family: 'Inter';
+    color: #fff;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    color: #fff;
+}
+
+a :visited {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+.article, footer {
+    margin: 0 7.6rem;
+}
+
+/**************** HEADER ****************/
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: black;
+    padding: 10px 20px;
+}
+
+.row-navbar {
+    position: relative;
+    width: 100%;
+    top: 50%;
+    padding: 0.5rem 1.5rem;
+}
+
+.container-logo {
+    position: absolute;
+    left: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.navbar {  
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.burger, nav, .container-logo, .menu-burger {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 18px;
+}
+
+.navbar ul li {
+    display: inline-block;
+    padding: 1.5rem;
+}
+
+.menu-burger {
+    position: absolute;
+    right: 1.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.menu-burger ul li {
+    display: inline-block;
+    padding: 0.2rem;
+}
+
+
+
+/**************** BANNER ****************/
+
+
+.banner {
+    background-image: url('/assets/images/home-pages/banner-img.png');
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.row {
+    display: block;
+}
+
+.column {
+    display: inline-block;
+    margin: 0 0 0 7.6rem;
+}
+
+.column span {
+    display: block;
+}
+
+h1 {
+    font-size: 5.925rem;
+    font-weight: 400;
+    margin-top: 10rem;
+}
+
+.column span {
+    font-size: 3.23rem;
+    width: 100%;
+}
+
+.column p {
+    color: #868686;
+}
+
+.baner-text {
+margin-top: 8rem;
+margin-bottom: 13rem;
+font-size: 1.2rem;
+}
+
+/**************** LOGO ****************/
+
+.container-cards {
+    display: block;
+}
+
+.container-cards p {
+    color: #868686;
+    margin-bottom: 4rem;
+}
+
+.cards ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/**************** DESCRIPTION ****************/
+
+
+.container-description {
+    display: flex;  
+    margin-top: 13rem;
+    align-items: center;
+}
+
+.col-lg-1 p {
+    color: #868686;
+    margin-top: 2rem;
+}
+
+.col-lg-1 img {
+    display: inline-block;
+}
+
+
+.container-project {
+    margin-top: 7rem;
+}
+
+.container-project h2 {
+    font-size: 111px;
+}
+
+.container-img {
+    display: flex;
+    gap: 5px;
+    width: 100%;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5px;
+}
+
+.column-right {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 5px;
+}
+
+.box-medium img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-large img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
